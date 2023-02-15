@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Customer-service" />
         <module name="inventory-service" />
+        <module name="builing-service" />
         <module name="Gateway" />
         <module name="discovery-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="builing-service" target="1.8" />
       <module name="Customer-service" target="1.8" />
       <module name="discovery-service" target="1.8" />
       <module name="Gateway" target="1.8" />
@@ -24,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Customer-service" options="-parameters" />
       <module name="Gateway" options="-parameters" />
+      <module name="builing-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
     </option>

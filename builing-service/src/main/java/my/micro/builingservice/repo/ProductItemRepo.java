@@ -1,10 +1,9 @@
-package my.micro.inventoryservice.repository;
+package my.micro.builingservice.repo;
 
-import my.micro.inventoryservice.entity.Product;
+import my.micro.builingservice.entity.ProductItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource
-public interface ProduitRepo extends JpaRepository<Product, Long> {
-
+public interface ProductItemRepo extends JpaRepository<ProductItem , Long> {
 }
